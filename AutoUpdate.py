@@ -10,25 +10,25 @@ for i in reqUn:
   r_url = url + str(i) + UpdtFlag
   r = requests.get(r_url)
   print(i, r.status_code)
-  time.sleep(0)
+  time.sleep(0.1)
   
 reqUn = [ i for i in range(1, 1000)]
 for i in reqUn:
   r_url = url + str(i) + UpdtFlag
   r = requests.get(r_url)
   print(i, r.status_code)
-  time.sleep(0)
+  time.sleep(0.1)
   
 reqUn = [ i for i in range(1, 1000)]
 for i in reqUn:
   r_url = url + str(i) + UpdtFlag
   r = requests.get(r_url)
   print(i, r.status_code)
-  time.sleep(0)
+  time.sleep(0.1)
 
 reqUn = [ i for i in range(1, 1000)]
 for i in reqUn:
   r_url = url + str(i) + UpdtFlag
   r = requests.get(r_url)
   print(i, r.status_code)
-  time.sleep(0)
+  time.sleep(0.1)
