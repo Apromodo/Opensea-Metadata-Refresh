@@ -11,7 +11,7 @@ for i in ids:
   req_url = url + str(i) + update_flag
   r = requests.get(req_url)
   print(i, r.status_code)
-  time.sleep(0.3)
+  time.sleep(0.1)
   
 ids = [ i for i in range(1, 1000)]
 
@@ -19,7 +19,7 @@ for i in ids:
   req_url = url + str(i) + update_flag
   r = requests.get(req_url)
   print(i, r.status_code)
-  time.sleep(0.3)
+  time.sleep(0.1)
   
 ids = [ i for i in range(1, 1000)]
 
@@ -27,4 +27,4 @@ for i in ids:
   req_url = url + str(i) + update_flag
   r = requests.get(req_url)
   print(i, r.status_code)
-  time.sleep(0.3)
+  time.sleep(0.1)
